@@ -9,4 +9,11 @@
 
 	<artifactId>apineitor-meetup</artifactId>
 
+	<dependencies>
+		<dependency>
+			<groupId>es.alrocar</groupId>
+			<artifactId>apineitor-core</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+	</dependencies>
 </project>
