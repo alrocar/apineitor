@@ -24,7 +24,6 @@ public class POIProxyControllerTest {
 			POIProxyResponse response = controller.get(new POIProxyBrowseEndPoint());
 			Assert.assertTrue(response.getType().equals("FeatureCollection"));
 		} catch (APIException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			Assert.assertTrue(false == true);
 		}
@@ -40,7 +39,6 @@ public class POIProxyControllerTest {
 			DefaultAPIResponse response = controller.get(new POIProxyBrowseEndPoint());
 			Assert.assertTrue(response.get("type").equals("FeatureCollection"));
 		} catch (APIException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			Assert.assertTrue(false == true);
 		}
@@ -72,7 +70,6 @@ public class POIProxyControllerTest {
 
 			// lock.wait();
 		} catch (APIException /* | InterruptedException */ e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			Assert.assertTrue(false == true);
 			// lock.notify();

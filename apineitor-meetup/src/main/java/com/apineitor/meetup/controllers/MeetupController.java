@@ -31,6 +31,7 @@ public class MeetupController extends APIController<APIEndPoint, APIResponse> {
 		super(_client, _configuration, _responseType);
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public String prepareGet(final APIEndPoint apiEndPoint, final APIEndPointAnnotation endPointAnnotation)
 			throws APIException {
