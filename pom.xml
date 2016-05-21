@@ -121,5 +121,11 @@
 
 	<modules>
 		<module>core</module>
+		<module>apineitor-ckan</module>
+		<module>apineitor-eventbrite</module>
+		<module>apineitor-meetup</module>
+		<module>apineitor-orion</module>
+		<module>apineitor-poiproxy</module>
+		<module>apineitor-spotify</module>
 	</modules>
 </project>
